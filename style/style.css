@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter' , sans-serif;
+}
+
+
+a{
+    font-weight: 500px;
+    text-decoration: none;    
+    font-weight: 500px;
+    color: #4D4D4D;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 50px;
+    padding-right: 70px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo{
+    padding-left: 70px;
+}
+
+.register-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF4F;
+    width: 140.25px;
+    height: 37px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.button{
+    color: #ffffff;
+}
+
+.main{
+    background-color: #F5F7FA;
+    height: 65vh;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main-information{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 110px;
+}
+
+.right-information-img{
+    height: 300px;
+    width: 300px;
+}
+
+h1{
+    font-size: 50px;
+    color: #4D4D4D;
+}
+
+span{
+    color: #4CAF4F;
+}
+
+.paragrafo-main{
+    color: #717171;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.register-button-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF4F;
+    width: 100px;
+    height: 45px;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-top: 12px;
+}
+
+.clients-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourclients{
+    color: #4D4D4D;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+.paragrafo-clients{
+    padding-bottom: 20px;
+}
+
+
+.clients-menage{
+    color: #4D4D4D;
+    font-size: 30px;
+    line-height: 31px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 9px;
+}
+
+.paragraph-menage{
+    color: #717171;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.member{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.membership,.national-associations,.clubs-and-groups{
+    background-color: #FFFFFF;
+    height: 220px;
+    width: 303.85px;
+    justify-content: center;
+    box-shadow: 1px 1px 2.90px #7171712d;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+ 
+h3{
+    color: #4D4D4D;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.paragraph-member{
+    color: #717171;
+    text-align: center;
+    font-size: 15px;
+}
+
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4D4D4D;
+    gap: 40px;
+}
+
+.pixelgrade-frame{
+    width: 400px;
+    height: 400px;
+}
+
+.h2-pixelgrade{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.paragaph-pixelgrade{
+    justify-content: flex-start;
+    width: 418.34px;
+    height: 56px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.button-pixelgrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF4F;
+    width: 140.25px;
+    height: 37px;
+    border-radius: 3px;
+    color: #ffffff;   
+}
+
+.number-information{
+    background-color:#f5f7fa;
+    height: 210.94px;
+    width: 100%;
+}
+
+.information-options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.h2-member{
+    color: #4D4D4D;
+    font-size: 30px;
+}
+
+p{
+    color: #717171;
+}
+
+.member-informations{
+    font-size: 15px;
+    padding-top: 10px;
+    color: black;
+}
+
+.io{
+    padding-bottom: 10px;
+}
+
+.footer-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding-top: 50px;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.h2-footer-about{
+    font-size: 40px;
+    color: #4D4D4D;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.p-footer-information{
+    font-size: 13px;
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+.button-footer-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF4F;
+    width: 140.25px;
+    height: 37px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.tesla-about{
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 40px;  
+}
+
+.paragaph-tesla{
+    font-size: 13px;
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+.tesla-button{
+    color: #4CAF4F;
+    font-weight: bold;
+}
+
+h5{
+    color:#4D4D4D;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.img-button-tesla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.tesla-icons{
+    width: 500px;
+    padding-right: 20px;
+
+}
+
+.button-tesla{
+    color: #4CAF4F;
+    padding-right: 10px;
+}
+
+.marketing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.marketing h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.paragaph-about-marketig{
+    font-size: 13px;
+    width: 500px;
+    padding: 0px 0px 20px;
+}
+
+.marketing-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box-marketing{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    position: relative;
+    bottom: 70px;
+    z-index: 8;
+}
+
+.fora-box-marketing{
+    background-color: #F5F7FA;
+    height:123px;
+    width:220px;
+    border-radius:4px;
+    box-shadow: 0px 2px 22px 6.9px #7171712d;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.fora-box-marketing ,h4{
+    text-align:center;
+    padding-bottom: 10px;
+}
+  
+.fora-box-marketing  a{
+    color: #4CAF4F;
+}
+
+.last-section{
+    background-color: #f5f7fa;
+    width: auto;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.h2-last-section{
+    color: #263238;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.footer{
+    background-color: #0B0D17;
+    height: 230px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+
+.company, .support, .stay-up-to-date{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer, p{
+    color: #FFFFFF;
+    font-weight: 300px;
+    padding-bottom: 10px;
+}
+
+.social-media-icons{
+    padding-top: 30px;
+}
+
+.logo-footer{
+    padding-bottom: 10px;
+}
+
+.footer ,h2{
+    padding-bottom: 10px;
+}
+
+.footer a{
+    padding-bottom: 3px;
+}
+
+.stay-up-to-date h2{
+    padding-bottom: 30px;
+}
+
+.button-email-footer{
+    width: 204.5px;
+    height: 35.84px;
+    border: none;
+    border-radius: 5.57px;
+    text-align: center;
+    background-color: black;
+    opacity: 20%;
+    color: #F5F7FA;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
